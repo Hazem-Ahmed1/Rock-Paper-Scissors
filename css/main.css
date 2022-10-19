@@ -1,0 +1,38 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #efefef !important;
+}
+
+.roles .role{
+    color: #edbaa7;
+    background-color: transparent;
+    border: none;
+    font-size: 56px;
+    margin: 0px 30px;
+    transition: all 0.5s;
+}
+.role:hover{
+    transform: scale(1.2,1.2);
+}
+.dashboard div{
+    margin: 0px 30px;
+}
+.dashboard div p{
+    font-size: 32px;
+    font-weight: 500;
+}
+.dashboard span{
+    font-size: 26px;
+}
+.result p{
+    font-size: 32px;
+    font-weight: 500;
+}
+.status p{
+    font-size: 32px;
+}
+@media(max-height:768px){
+    .roles .role{
+        font-size: 46px;
+    }
+}
